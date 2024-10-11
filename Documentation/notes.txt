@@ -59,3 +59,10 @@ add to INSTALLED_APPS:
 add variables:
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+django migration (creating models / DB)
+python3 manage.py makemigrations //Identify the changes
+python3 manage.py migrate //Apply changes
+
+create superuser for admin site
+python3 manage.py createsuperuser
